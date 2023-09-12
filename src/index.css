@@ -10,20 +10,20 @@
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  background-color:#01031a;
 }
 .App {
   max-width: 960px;
   margin: 0 auto;
-  background-image: url('../public/ekipa.jpg');
-  background-size: cover; /* Dostosowanie tła do rozmiaru kontenera */
-  background-position: center center; /* Wyśrodkowanie tła */
-  background-repeat: no-repeat; /* Wyłączenie powtarzania tła */
-  border-radius: 10px; /* Zaokrąglenie narożników */
+  background: linear-gradient(to right,#000428,#032b4f);
+  border:5px solid  #064781;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px  #186cb5 ;
   
-
 }
+
 .title h1{
-  color: var(--primary);
+  color:white;
   font-size: 2.3rem;
   letter-spacing: 2px;
   font-weight: normal;
@@ -34,8 +34,10 @@ body{
 }
 .title h2{
   margin-top: 60px;
-  font-size: 2.6rem;
+  font-size:20px;
   font-style: italic;
+  color:white;
+ 
 }
 
 /* upload form styles */
@@ -48,20 +50,20 @@ label input{
   width: 0;
   opacity: 0;
 }
-label{
+label {
   display: block;
   width: 30px;
   height: 30px;
-  border: 1px solid var(--primary);
+  border: 5px solid white;
   border-radius: 50%;
   margin: 10px auto;
   line-height: 30px;
-  color: var(--primary);
-  font-weight: bold;
+  color: white;
+  font-weight: bold; /* Add font-weight:bold; to make the text bold */
   font-size: 24px;
 }
 label:hover{
-  background: var(--primary);
+  background: rgb(214, 213, 213);
   color: white;
 }
 .output{
@@ -93,6 +95,9 @@ label:hover{
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
   opacity: 0.8;
+  border: 3px solid #186cb5;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .img-wrap img{
   min-width: 100%;
@@ -119,4 +124,5 @@ label:hover{
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
   border: 3px solid white;
+  position: relative;
 }
