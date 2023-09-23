@@ -28,6 +28,7 @@ body{
   letter-spacing: 2px;
   font-weight: normal;
   text-align: center;
+  margin-top:35px;
 }
 .title h2, .title p{
   text-align: center;
@@ -39,6 +40,7 @@ body{
   color:white;
  
 }
+
 
 /* upload form styles */
 form{
@@ -52,15 +54,15 @@ label input{
 }
 label {
   display: block;
-  width: 30px;
+  width: 105px;
   height: 30px;
   border: 5px solid white;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 10px auto;
   line-height: 30px;
   color: white;
   font-weight: bold; /* Add font-weight:bold; to make the text bold */
-  font-size: 24px;
+  font-size: 17px;
 }
 label:hover{
   background: rgb(214, 213, 213);
