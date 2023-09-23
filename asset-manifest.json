@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/olimpicekipa78/static/css/main.83e8ef1a.css",
-    "main.js": "/olimpicekipa78/static/js/main.98c72584.js",
+    "main.css": "/olimpicekipa78/static/css/main.fc784fcc.css",
+    "main.js": "/olimpicekipa78/static/js/main.0388d536.js",
+    "static/media/logo.jpeg": "/olimpicekipa78/static/media/logo.433c9c5fa7aa2e2d33cd.jpeg",
     "index.html": "/olimpicekipa78/index.html",
-    "main.83e8ef1a.css.map": "/olimpicekipa78/static/css/main.83e8ef1a.css.map",
-    "main.98c72584.js.map": "/olimpicekipa78/static/js/main.98c72584.js.map"
+    "main.fc784fcc.css.map": "/olimpicekipa78/static/css/main.fc784fcc.css.map",
+    "main.0388d536.js.map": "/olimpicekipa78/static/js/main.0388d536.js.map"
   },
   "entrypoints": [
-    "static/css/main.83e8ef1a.css",
-    "static/js/main.98c72584.js"
+    "static/css/main.fc784fcc.css",
+    "static/js/main.0388d536.js"
   ]
 }
